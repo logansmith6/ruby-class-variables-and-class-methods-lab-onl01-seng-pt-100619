@@ -29,7 +29,7 @@ class Song
 
      gen = {}
      @@genres.each do |genre|
-     
+
         if gen.has_key?(genre)
           gen[genre] += 1
         else
