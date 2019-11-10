@@ -28,7 +28,7 @@ class Song
    def self.genre_count
 
      gen = {}
-     @@genres.each 
+     @@genres.each
      {
        |genre|
        if gen.has_key?(genre)
